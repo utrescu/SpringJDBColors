@@ -2,10 +2,11 @@ package net.xaviersala;
 
 public class Color {
 
-  public String catala;
-  public String castella;
-  public String frances;
-  public String angles;
+  protected String catala;
+  protected String castella;
+  protected String frances;
+  protected String angles;
+  
   public Color(String string, String string2, String string3, String string4) {
     catala = string;
     castella = string2;
